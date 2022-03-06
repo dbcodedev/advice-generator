@@ -1,6 +1,7 @@
 import {useState, useEffect} from "react"
 import axios from "axios"
 import Advice from "./Advice"
+import Footer from "./Footer"
 
 function App() {
 
@@ -37,10 +38,7 @@ function App() {
           <div className="button" onClick={getAdvice}></div>
         </div>
       </div>
-
-      <div className="attribution">Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener, noreferrer">Frontend Mentor</a>. 
-        Coded by <a href="https://twitter.com/davidb_77">@davidb_77</a>.
-      </div>
+      <Footer/>
     </div>
   );
 }
